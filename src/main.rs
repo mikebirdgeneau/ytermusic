@@ -7,7 +7,7 @@ use structures::performance::STARTUP_TIME;
 use term::{Manager, ManagerMessage};
 use tokio::select;
 
-use std::{future::Future, panic, str::FromStr, sync::Arc, process::exit};
+use std::{future::Future, panic, sync::Arc, process::exit};
 use systems::{player::player_system, logger::init};
 
 mod config;
